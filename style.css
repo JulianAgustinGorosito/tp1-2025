@@ -1,16 +1,31 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: grey;
-    color: white;
+    color: black;
     margin:0;
     padding: 20px;
 }
 
 #contenedor {
-    background-color: black;
+    background-color: rgb(59, 56, 1);
     max-width: 800px;
     margin: auto;
     padding:30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#contenedor {
+    background-color:lightgray;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#nombreCompleto {
+    color: darkblue;
+    text-align: left;
+    padding-bottom: 50px;
 }
