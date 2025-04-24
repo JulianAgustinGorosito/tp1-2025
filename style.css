@@ -41,7 +41,39 @@ body {
 }
 
 #nombreCompleto {
-    color: darkblue;
+    color: black;
     text-align: left;
     padding-bottom: 50pxgi;
+}
+
+.seccion{
+    margin-top: 30px;
+}
+
+.seccion h2{
+    color:#007acc;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+.etiqueta{
+    background-color: lightslategray;
+    padding: 4px 8px;
+    border-radius: 25px;
+    font-size: 1em;
+}
+
+.empresa, .institución{
+    font-weight: bold;
+    color: #007acc;
+
 }
