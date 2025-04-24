@@ -15,6 +15,22 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+#fotoPerfil{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #007acc;
+}
+
 #contenedor {
     background-color:lightgray;
     max-width: 800px;
@@ -27,5 +43,5 @@ body {
 #nombreCompleto {
     color: darkblue;
     text-align: left;
-    padding-bottom: 50px;
+    padding-bottom: 50pxgi;
 }
